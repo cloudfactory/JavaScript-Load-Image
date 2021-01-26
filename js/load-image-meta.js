@@ -88,7 +88,7 @@
           blobSlice &&
           file &&
           file.size >= 12 &&
-          file.type === 'image/jpeg'
+          (file.type === 'image/jpeg' || file.type === 'image/jpg')
         )
       ) {
         // Nothing to parse

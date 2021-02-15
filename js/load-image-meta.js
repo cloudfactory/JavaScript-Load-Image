@@ -87,8 +87,7 @@
           global.DataView &&
           blobSlice &&
           file &&
-          file.size >= 12 &&
-          (file.type === 'image/jpeg' || file.type === 'image/jpg')
+          file.size >= 12
         )
       ) {
         // Nothing to parse
